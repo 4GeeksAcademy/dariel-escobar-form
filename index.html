@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f99e2cfb72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="card">
+   <div class="card-header fs-5 fw-bold">
+    Payment form exemple
+   </div>
+  <div class="card-body">
+   
+
+    <div class="alert alert-danger" role="alert">
+  Some fields are missing
+</div>
+
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label fs-5 fw-normal">Card #</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="xxxxxxxxxxxxxxxx">
+  </div>
+   <div class="col-md-2">
+    <label for="inputEmail4" class="form-label fs-5 fw-normal">CVC #</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="0000">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label fs-5 fw-normal">Amount</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="amount">
+  </div>
+  <div class="col-md-6">
+    <label for="inputAddress" class="form-label fs-5 fw-normal">First name</label>
+    <input type="text" class="form-control" id="inputAddress">
+  </div>
+   <div class="col-md-6">
+    <label for="inputEmail4" class="form-label fs-5 fw-normal">Last name</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6 mb-3">
+    <label for="inputCity" class="form-label fs-5 fw-normal">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label fs-5 fw-normal">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Pick a state</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label fs-5 fw-normal">Postal code</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+<div class="row mb-3">
+  <div class="col-md-6">
+    <div class="col">
+     <span class="fs-5 fw-normal">We accept:</span>
+     <div class="col-6 d-flex justify-content-between bg-secondary rounded-3 mt-3 p-2">
+        <input class="form-check-input" type="radio" value="" id="card1">
+        <label class="form-check-label" for="card1">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        </label>
+        <input class="form-check-input" type="radio" value="" id="card4" checked>
+        <label class="form-check-label" for="card4">
+          <i class="fa-brands fa-cc-visa"></i>
+        </label>
+        <input class="form-check-input" type="radio" value="" id="card4" checked>
+        <label class="form-check-label" for="card4">
+          <i class="fa-brands fa-cc-diners-club"></i>
+        </label>
+        <input class="form-check-input" type="radio" value="" id="card4" checked>
+        <label class="form-check-label" for="card4">
+          <i class="fa-brands fa-cc-amex"></i>
+        </label>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="col">
+      <span class="fs-5 fw-normal">Message</span>
+      <div class="form-floating">
+       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+       <label for="floatingTextarea2"></label>
+      </div>
+      <p class=" text-secondary">Add any notes here.</p>
+    </div>
+
+  </div>
+</div>
+</form>
+</div>
+ <div class="card-footer text-muted">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-dark type="button">Cancel</button>
+  <button class="btn btn-primary" type="button">Send</button>
+    </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
